@@ -1,0 +1,132 @@
+* {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+h3 {
+  color: black;
+  text-align: left;
+}
+.judul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(100, 167, 226);
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+}
+
+.judul h3 {
+  color: white;
+}
+
+.summ {
+  display: flex;
+  flex-direction: row;
+  background-color: blanchedalmond;
+}
+
+.textsum {
+  display: flex;
+  flex-direction: column;
+  font-family: "Teko", sans-serif;
+}
+
+.itsme {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.profimg {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+  height: 70px;
+  padding: 0;
+}
+
+.navbar .port {
+  display: flex;
+  padding-top: 0;
+  padding: 10px;
+}
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
+.navbar .portofolio {
+  display: flex;
+  padding: 10px;
+  color: cornflowerblue;
+  font-size: 35px;
+  opacity: 0.6;
+}
+
+.navbar .port .logo {
+  flex: 1;
+}
+
+.navbar .port .portofolio:hover {
+  opacity: 4;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%; /* Full width */
+  background-color: beige;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  color: white;
+}
+.skillsbg {
+  width: 100%; /* Full width */
+  height: 100%;
+  background-color: rgb(231, 149, 119);
+  padding: 10px;
+}
+
+.skillbar {
+  text-align: left;
+  padding-top: 10px;
+}
+.html {
+  width: 80%;
+  background-color: #4caf50;
+}
+
+.css {
+  width: 80%;
+  background-color: #2196f3;
+} /* Blue */
+.js {
+  width: 65%;
+  background-color: #f44336;
+} /* Red */
+.php {
+  width: 30%;
+  background-color: #808080;
+} /* Dark Grey */
